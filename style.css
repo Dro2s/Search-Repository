@@ -1,0 +1,22 @@
+li{
+    font-size: 17px;
+    align-items: center;
+    margin-left: 25vw;
+    margin-top: 1vw;
+}
+.search__label{
+    margin-left: 25vw;
+    
+}
+.results{
+    margin-left: 27vw;
+}
+.img{
+    width: 2px;
+}
+li:hover{
+ cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
