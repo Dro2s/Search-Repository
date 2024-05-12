@@ -79,9 +79,9 @@ addEventListener("DOMContentLoaded", (event) => {
       });
       addedResult.append(deleteButton);
       resultText.innerHTML = `
-      Name: ${event.target.content.name} <br>
-      Owner: ${event.target.content.owner.login} <br>
-      Stars: ${event.target.content.stargazers_count}
+      Имя: ${event.target.content.name} <br>
+      Репозиторий: ${event.target.content.owner.login} <br>
+      Звёзд: ${event.target.content.stargazers_count}
       `;
       addedSearchResults.append(addedResult);
       searchBar.value = "";
